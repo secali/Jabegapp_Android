@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/meses"
+    android:weightSum="1"
+    android:baselineAligned="false">
+
+    <Button
+        android:id="@+id/cal_m"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+        android:layout_weight="1"
+        android:background="#00ffffff" />
+
+    <Button
+        android:id="@+id/cal_j2"
+        android:layout_width="300dp"
+        android:layout_height="90dp"
+        android:layout_alignLeft="@+id/cal_j"
+        android:layout_alignStart="@+id/cal_j"
+        android:layout_below="@+id/cal_m"
+        android:layout_marginTop="75dp"
+        android:layout_weight="1"
+        android:background="#00ffffff" />
+
+    <Button
+        android:id="@+id/cal_a"
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:layout_alignLeft="@+id/cal_j2"
+        android:layout_alignStart="@+id/cal_j2"
+        android:layout_below="@+id/cal_j2"
+        android:layout_weight="1"
+        android:background="#00ffffff" />
+
+    <Button
+        android:id="@+id/cal_j"
+        android:layout_width="300dp"
+        android:layout_height="75dp"
+        android:layout_weight="1"
+        android:background="#00ffffff"
+        android:layout_below="@+id/cal_m"
+        android:layout_alignLeft="@+id/cal_m"
+        android:layout_alignStart="@+id/cal_m" />
+
+    <Button
+        android:id="@+id/cal_se"
+        android:layout_width="300dp"
+        android:layout_height="110dp"
+        android:layout_alignLeft="@+id/cal_a"
+        android:layout_alignStart="@+id/cal_a"
+        android:layout_below="@+id/cal_a"
+        android:layout_weight="1"
+        android:background="#00ffffff" />
+</RelativeLayout>
