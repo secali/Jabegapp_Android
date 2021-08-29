@@ -1,7 +1,6 @@
 # Jabegapp_Android
-Android application with relevant information about "Liga de Jábegas" in Málaga: Teams, boats and basics characteristics, races' location... etc
+Aplicación Android con información relevante sobre la Liga de Jábegas Malagueña: Equipos, embarcaciones, características propias de cada embarcación, regatas, localización, contacto con los clubs, etc.
 
+*Dada la limitación de Github, este repositorio solo incluye el código programado, de forma que el proyecto generado en Android Studio no se encuentra completo.
 
-Link for the full project: https://drive.google.com/file/d/0B4Coc7PUNw2bSkVNeXlHbHBhd28/view?usp=sharing
-
-Available on Google Play: https://play.google.com/store/apps/details?id=sergiocl.jabegapp
+Ya no puede ser descargada de Google Play, pero se pueden ver el diseño de su interfaz y funcionalidades básicas: https://play.google.com/store/apps/details?id=sergiocl.jabegapp
